@@ -1,0 +1,20 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: 
+    font-family: 
+}
+
+
+position: absolute;
+width: 1279px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: url(angularjs-code-ui-front-end1.jpg);
+opacity: 0.75;
