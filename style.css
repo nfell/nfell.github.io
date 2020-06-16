@@ -14,7 +14,7 @@ body {
     display: flex;
 }
 
-.letterBlock {
+div .letterBlock {
     position: relative;
     height: 136px;
     width: 90px;
