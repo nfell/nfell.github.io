@@ -8,11 +8,39 @@
          url('ticking-timebomb-bb.regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
-p {
-    font-family: "ticking_timebomb_bbregular", Arial, sans-serif;
-    font-size: 16px;
+body {
+    display: flex;
+}
+
+.letterBlock {
+    position: relative;
+    height: 136px;
+    width: 90px;
+    background-color: #c5c5c5;
+}
+
+.letterBackground {
+    background: #373737;
+    border: 0.5px solid #2E2E2E;
+    width: 85px;
+    height: 128px;
+    position: absolute;
+    bottom: 0; left: 0;
+}
+
+.segment {
+    color: #5A5A5A;
+    font-family: 'ticking_timebomb_bbregular';
+    font-size: 160px;
+    position: absolute;
+}
+
+.letter {
+    color: #FF0000;
+    font-family: 'ticking_timebomb_bbregular';
+    font-size: 160px;
+    position: absolute;
 }
 
