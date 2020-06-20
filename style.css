@@ -12,13 +12,26 @@
 
 body {
     display: flex;
+    flex-direction: column;
+    background-color: #04816F;
+}
+
+.nameRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 515px;
 }
 
 .letterBlock {
     position: relative;
-    height: 136px;
+    height: 128px;
+    width: 85px;
+}
+
+#E,
+#L {
     width: 90px;
-    background-color: #c5c5c5;
 }
 
 .letterBackground {
@@ -27,14 +40,37 @@ body {
     width: 85px;
     height: 128px;
     position: absolute;
-    bottom: 0; left: 0;
+    top: 0px; left: 0;
 }
 
+.shadowContainer {
+    background: linear-gradient(180deg, #C5C5C5 30%, #8B8B8B 80%);
+    margin-bottom: 10px;
+}
+
+.sideShadow {
+    background: linear-gradient(180deg, #8B8B8B 50%, #C5C5C5 100%);
+}
+
+.shadow {
+    fill: none;
+    stroke: #828282;
+    stroke-width: .5px;
+}
+
+.ends {
+    fill: #04816F;
+    stroke: #04816F;
+    stroke-width: .5px;
+}
+
+
 .segment {
-    color: #5A5A5A;
+    color: #494949;
     font-family: 'ticking_timebomb_bbregular';
     font-size: 160px;
     position: absolute;
+    top: -10px;
 }
 
 .letter {
@@ -42,5 +78,64 @@ body {
     font-family: 'ticking_timebomb_bbregular';
     font-size: 160px;
     position: absolute;
+    filter: blur(1px);
+    top: -10px;
 }
 
+.chip {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topCopper,
+.bottomCopper {
+    display: flex;
+}
+
+.chipBody {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 500px;
+    border-radius: 25px;
+    position: relative;
+}
+.copper {
+    background-color: #D18E5A;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.mount {
+    background-color: #c4c4c4;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+}
+
+.bottomCopper>.copper>.mount {
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    top: 0;
+}
+
+.topCopper>.copper>.mount {
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    bottom: 0;
+}
+
+.pinIndicator {
+    position: absolute;
+    background-color: #4A4949;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    left: 50px; top: 50px;
+}
