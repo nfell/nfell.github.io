@@ -10,10 +10,58 @@
     font-style: normal;
 }
 
+#navList {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navList a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: "Electrolize", sans-serif;
+    margin: 5px;
+}
+
+#navList a:hover {
+    font-size: 18px;
+}
+
+.LED {
+    margin: 0 auto;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #033528 0 -1px 9px;
+}
+
+#onLED {
+    background-color: #FF0000;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    background-color: #04816F;
+    background-image:linear-gradient(#04816F, rgba(0, 0, 0, 0.5)),
+    url('https://www.myfreetextures.com/wp-content/uploads/2014/10/2010-04-26-07277.jpg');
+    background-size: contain;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .nameRow {
@@ -58,7 +106,7 @@ body {
     stroke-width: .5px;
 }
 
-.ends {
+.greenEnds {
     fill: #04816F;
     stroke: #04816F;
     stroke-width: .5px;
@@ -82,7 +130,7 @@ body {
     top: -10px;
 }
 
-.chip {
+#chip {
     margin: 50px;
     display: flex;
     flex-direction: column;
@@ -138,4 +186,14 @@ body {
     height: 50px;
     width: 50px;
     left: 50px; top: 50px;
+}
+
+.leftBody {
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    background-color: tan;
 }
