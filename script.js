@@ -1,9 +1,16 @@
 "use strict";
 
-// Function to change LED to on when tab is selected
-function selectLED(num) {
-    document.querySelectorAll(".LED").forEach(i => {
-        i.id = ""
+//Turn LED on when you switch from section to section
+window.onscroll = function() {selectLED()};
+
+function selectLED() {
+
+    document.querySelectorAll(".markers").forEach((value, i) => {
+        var height = value.offsetTop;
+        if (window.pageYOffset > height - 10) {
+            document.querySelectorAll(".LED")[i].id = "onLED";
+        } else {
+            document.querySelectorAll(".LED")[i].id = "";
+        }
     });
-    document.querySelectorAll(".LED")[num].id = "onLED";
 }

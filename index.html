@@ -9,32 +9,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
         <title>Nicole Fell Portfolio Page</title>
 
         <script src="script.js" defer></script>
     </head>
-    <header class="sticky">
+    <header>
         <ul id="navList">
-            <a href="index.html" onclick="selectLED(0)">
+            <a href="#chip">
                 <div class="LED" id="onLED"></div>
                 About Me
             </a>
-            <a href="#chip" onclick="selectLED(1)">
+            <a href="#resistor">
                 <div class="LED"></div>
-                Formula Racing
+                Design
             </a>
-            <a href="index.html" onclick="selectLED(2)">
+            <a href="#switch">
                 <div class="LED"></div>
-                Graphic Design
+                Clubs and School Activities
             </a>
-            <a href="index.html" onclick="selectLED(3)">
+            <a href="">
                 <div class="LED"></div>
-                Sewing Projects
+                Major Coursework
             </a>
-             <a href="index.html" onclick="selectLED(4)">
-                <div class="LED"></div>
-                 Painting Projects
-             </a>
         </ul>
     </header>
     <body>
@@ -128,7 +125,7 @@
             </svg>
         </div>
         <!-- </a>-->
-        <div id="chip">
+        <div id="chip" class="markers">
             <div class="topCopper">
                 <div class="copper">
                     <div class="mount"></div>
@@ -172,9 +169,10 @@
             </div>
             <div class="chipBody">
                 <div class="pinIndicator"></div>
-                <div id="chipTitle">Formula Racing</div>
+                <div id="chipTitle">About Me</div>
                 <div id="chipsubTitle">
-                    FRUCD is a student run club at UC Davis that designs, builds and races an electric car in the national formula SAE competition. I joined the club for the 2019-2020 year and although the race in June 2020 was cancelled, I learned tons being a part of the club. Read more about my experience &#8594
+                    I'm a student with a wide range of interests and a huge love for learning. From the outdoors to art & crafts to computer science and engineering, learn all about what gets me excited! 
+                    <a href="about.html">&#8594</a>
                 </div>
             </div>
             <div class="bottomCopper">
@@ -219,14 +217,27 @@
                 </div>
             </div>
         </div>
-        <div id="resistor">
+        <div id="resistor" class="markers">
+            <div class="wire">design</div>
             <div class="leftBody"></div>
             <div class="centerBody">
-                <div class="imgWrapper">
-                    <img src="dress1.jpg" alt="Long floral dress">
-                </div>
+                <div class="strip" id="red"></div>
+                <div class="strip" id="blankOne"></div>
+                <div class="strip" id="grey"></div>
+                <div class="strip" id="blankTwo"></div>
+                <div class="strip" id="green"></div>
+                <div class="strip" id="blankThree"></div>
+                <div class="strip" id="yellow"></div>
+                <div class="strip" id="blankFour"></div>
+                <div class="strip" id="blue"></div>
             </div>
             <div class="rightBody"></div>
+            <div class="wire">create</div>
+        </div>
+        <div id="switch" class="markers">
+            <div id="outterBox"></div>
+            <div id="innerBox"></div>
+            <div id="popOff"></div>
         </div>
     </body>
 </html>

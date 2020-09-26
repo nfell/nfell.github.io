@@ -10,7 +10,7 @@
     font-style: normal;
 }
 
-.sticky {
+header {
     position: -webkit-sticky;
     position: fixed;
     top: 0;
@@ -169,6 +169,7 @@ body {
 
 #chip {
     margin: 50px;
+    margin-bottom: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -236,7 +237,7 @@ body {
 }
 
 #chipsubTitle {
-    display: flex;
+    display: inline;
     font-family: "PT Sans Narrow", sans-serif;
     color: white;
     font-size: 20px;
@@ -244,25 +245,92 @@ body {
     max-width: 525px;
 }
 
+#chipsubTitle>a {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
 .leftBody {
-    height: 500px;
-    width: 50px;
+    height: 300px;
+    width: 100px;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
-    border-top-right-radius: 15%;
-    border-bottom-right-radius: 15%;
     background-color: tan;
 }
 
 #resistor {
     display: flex;
-    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
 }
 
-.imageWrapper {
-    max-height: 500px;
+.wire {
+    font-family: "Meddon", cursive;
+    color: lightgrey;
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 0;
 }
 
-.imageWrapper>img {
-    width: 100%
+.centerBody {
+    display: flex;
+}
+
+.strip {
+    height: 300px;
+}
+
+#red {
+    background-color: red;
+    width: 50px;
+}
+
+#blankOne {
+    background-color: tan;
+    width: 10px;
+}
+
+#blankTwo {
+    background-color: tan;
+    width: 70px;
+}
+
+#grey {
+    background-color: grey;
+    width: 80px;
+}
+
+#yellow {
+    background-color: yellow;
+    width: 90px;
+}
+
+#blankThree {
+    background-color: tan;
+    width: 100px;
+}
+
+#green {
+    background-color: green;
+    width: 15px;
+}
+
+#blankFour {
+    background-color: tan;
+    width: 10px;
+}
+
+#blue {
+    background-color: navy;
+    width: 40px;
+}
+
+.rightBody {
+    height: 300px;
+    width: 100px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: tan;
 }
