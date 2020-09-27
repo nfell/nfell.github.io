@@ -21,6 +21,10 @@ header {
     z-index: 999;
 }
 
+body {
+    margin: 0;
+}
+
 #navList {
     display: flex;
     justify-content: space-around;
