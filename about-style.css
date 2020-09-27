@@ -2,6 +2,25 @@
     box-sizing: border-box;
 }
 
+#popMenu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#popMenu>button {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+}
+
+#popMenu>div {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 2px 0;
+}
+
 body {
     display: flex;
 }
