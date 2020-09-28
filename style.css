@@ -181,7 +181,7 @@ body {
 }
 
 .wheelWrap {
-    max-width: 300px;
+    width: 300px;
     margin: 0 5px;
     position: relative;
     display: flex;

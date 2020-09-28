@@ -24,7 +24,8 @@ let images = [
     "/Images/photoSlide/IMG_4794.jpeg",
     "/Images/photoSlide/IMG_4624.jpeg",
     "/Images/photoSlide/IMG_5929.jpeg",
-    "/Images/photoSlide/IMG_8256.jpeg"
+    "/Images/photoSlide/IMG_8256.jpeg",
+    "/Images/photoSlide/IMG_0119.jpeg"
 ]
 let captions = [
     "Choose godly wisdom over worldly wisdom",
@@ -34,7 +35,8 @@ let captions = [
     "The peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus",
     "But even the best years are filled with pain and trouble... Who can comprehend the power of your anger? Your wrath is as awesome as the fear you deserve. Teach us to realize the brevity of life, so that we may grow in wisdom",
     "The tounge is a small thing that makes grand speeches",
-    "For he will conceal me when troubles come; he will hide me in his sanctuary. He will place me out of reach on a high rock. Then I will hold my head high, above my enemies who surround me. At his sanctuary I will offer sacrafices with shouts of joy, singing and praising the Lord with music"
+    "For he will conceal me when troubles come; he will hide me in his sanctuary. He will place me out of reach on a high rock. Then I will hold my head high, above my enemies who surround me. At his sanctuary I will offer sacrafices with shouts of joy, singing and praising the Lord with music",
+    ""
 ]
 let authors = [
     "",
@@ -44,7 +46,8 @@ let authors = [
     "Philippians 4:7",
     "Psalms 90:10-12",
     "James 3:5",
-    "Psalms 27:5-6"
+    "Psalms 27:5-6",
+    ""
 ]
 
 //Move pictures when left/right arrows are pressed
