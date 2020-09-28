@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Nicole Page</title>
-    <link href="about-style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -19,9 +22,9 @@
         -->
         <ul id="navBar">
             <li>about</li>
-            <li>resume</li>
-            <li>portfolio</li>
-            <li>contact</li>
+            <li><a href="Nicole Fell_Resume_lateSept2020_Eng.pdf">resume</a></li>
+            <li><a href="">portfolio</a></li>
+            <li><a href="">contact</a></li>
         </ul>
     </header>
     <div class="mainContainer">
@@ -65,25 +68,48 @@
     </div>
     <footer>
         <div id="line"></div>
-        <div class="photoWheel">
+        <div id="photoWheel">
+
+            <div class="label">
+                &#10094
+                <button class="prev" onclick="plusSlides(-1)"></button>
+            </div>
 
             <div class="wheelWrap">
-                <div class="caption">
-                    Choose godly wisdom over worldly wisdom
+                <div class="shadow">
+                    <div class="caption"></div>
+                    <div class="who"></div>
                 </div>
-                <img src="/Images/photoSlide/IMG_0041.jpeg" alt="city" class="pic">
+                <img src="" class="pic">
             </div>
 
             <div class="wheelWrap">
-                <img src="/Images/photoSlide/IMG_0806.jpeg" alt="phili" class="pic">
+                <div class="shadow">
+                    <div class="caption"></div>
+                    <div class="who"></div>
+                </div>
+                <img src="" class="pic">
             </div>
 
             <div class="wheelWrap">
-                <img src="/Images/photoSlide/IMG_1971.jpeg" alt="sunrise" class="pic">
+                <div class="shadow">
+                    <div class="caption"></div>
+                    <div class="who"></div>
+                </div>
+                <img src="" class="pic">
             </div>
 
             <div class="wheelWrap">
-                <img src="/Images/photoSlide/IMG_2498.jpeg" alt="colfax" class="pic">
+                <div class="shadow">
+                    <div class="caption"></div>
+                    <div class="who"></div>
+                </div>
+                <img src="" class="pic">
+            </div>
+
+            <div class="label">
+                &#10095
+                <button class="next" onclick="plusSlides(1)"></button>
             </div>
 
         </div>
