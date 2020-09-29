@@ -145,6 +145,7 @@ body {
 .nicoleImgWrapper {
     max-width: 400px;
     margin: 50px;
+    margin-left: 0px;
 }
 
 .nicoleImgWrapper>img  {
