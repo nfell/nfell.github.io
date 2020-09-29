@@ -181,10 +181,16 @@ body {
 }
 
 .wheelWrap {
-    width: 300px;
+    width: 25%;
+    height: auto;
     margin: 0 5px;
     position: relative;
     display: flex;
+}
+
+.pic {
+    width: 100%;
+    object-fit: contain;
 }
 
 .shadow {
@@ -217,9 +223,4 @@ body {
 
 .wheelWrap:hover .shadow {
     opacity: .9;
-}
-
-.pic {
-    width: 100%;
-    object-fit: contain;
 }
