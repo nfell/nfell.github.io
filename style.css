@@ -182,15 +182,12 @@ body {
 
 .wheelWrap {
     width: 25%;
-    height: auto;
     margin: 0 5px;
     position: relative;
-    display: flex;
 }
 
 .pic {
     width: 100%;
-    object-fit: contain;
 }
 
 .shadow {
