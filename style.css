@@ -82,8 +82,7 @@ header {
     display: flex;
     flex-direction: column;
     font-family: "PT Sans", sans-serif;
-    margin-left: 100px;
-    max-width: 550px;
+    max-width: 60%;
 }
 
 #popMenu>button {
@@ -107,6 +106,7 @@ body {
 .mainContainer {
     display: flex;
     align-items: center;
+    margin: 0 100px;
 }
 
 
@@ -143,9 +143,7 @@ body {
 }
 
 .nicoleImgWrapper {
-    max-width: 35%;
-    margin: 50px;
-    margin-left: 0px;
+    max-width: 40%;
 }
 
 .nicoleImgWrapper>img  {
