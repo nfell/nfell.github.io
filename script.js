@@ -39,6 +39,7 @@ let captions = [
     "For he will conceal me when troubles come; he will hide me in his sanctuary. He will place me out of reach on a high rock. Then I will hold my head high, above my enemies who surround me. At his sanctuary I will offer sacrafices with shouts of joy, singing and praising the Lord with music",
     "Make every effort to add to your faith goodness; and to goodness, knowledge; and to knowledge, self control; and to self control, perseverance; and to perseverance, godliness; and to godliness, mutual affection; and to mutual affection, love"
 ]
+
 let authors = [
     "",
     "Psalms 27:13",
