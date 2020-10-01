@@ -267,16 +267,15 @@ body {
 .project_item {
     display: flex;
     align-items: center;
-    margin: 100px;
+    margin: 20px 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
-    width: 60%;
 }
 
 .project_about {
     display: flex;
     flex-direction: column;
-    margin: 50px 0;
+    margin: 50px;
     font-family: "PT Sans", sans-serif;
     max-width: 60%;
 }
@@ -292,7 +291,6 @@ body {
     font-size: 16px;
     color: rgba(172, 171, 171, 0.966);
     margin-top: 10px;
-    margin-right: 50px;
 }
 
 .glitch_link {
@@ -321,6 +319,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 50px;
+    margin-right: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -331,4 +330,92 @@ body {
 .row {
     display: flex;
     align-items: center;
+}
+
+#blocks {
+    display: flex;
+    font-size: 100px;
+    font-family: 'Londrina Outline', cursive;
+    margin: 20px 100px;
+}
+
+#blocks>div {
+    margin: 0 10px;
+}
+
+#imagine {
+    color: rgb(156, 10, 10);
+}
+
+#design {
+    color: rgb(49, 49, 160);
+}
+
+#create {
+    color: rgb(224, 224, 0);
+}
+
+.graphic_image_wrapper {
+    max-width: 100%;
+    margin: 50px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.graphic_image_wrapper>img {
+    width: 100%;
+}
+
+#project_item_graphic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 100px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    width: 40%;
+}
+
+.project_item_sewing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    width: 100%;
+}
+
+
+#project_about_graphic {
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+#simplicity {
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+#sophistication {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 50px;
+    overflow: wrap;
+}
+
+.graphic_block {
+    margin: 30px 100px;
+    margin-right: 0px;
+    width: 40%;
+}
+
+#graphic_row {
+    align-items: flex-start;
+    justify-content: space-between;
 }
