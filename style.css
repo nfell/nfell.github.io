@@ -398,15 +398,24 @@ body {
 #simplicity {
     font-family: 'Satisfy', cursive;
     font-size: 60px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
-#sophistication {
+.sophistication {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 100px;
     margin-bottom: 50px;
     overflow: wrap;
+    line-height: 0px;
+}
+
+#top_soph {
+    color: rgba(0, 0, 0, 0.705);
+}
+
+#bottom_soph {
+    color: rgba(0, 0, 0, 0.705);
 }
 
 .graphic_block {
@@ -418,4 +427,20 @@ body {
 #graphic_row {
     align-items: flex-start;
     justify-content: space-between;
+}
+
+.sewing_img_wrap {
+    width: 60%;
+}
+
+.sewing_img_wrap>img {
+    width: 100%;
+}
+
+.sewing_images {
+    display: flex;
+}
+
+#graphic_title {
+    margin-left: auto;
 }
