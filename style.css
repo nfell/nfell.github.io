@@ -441,6 +441,43 @@ body {
     display: flex;
 }
 
-#graphic_title {
-    margin-left: auto;
+.graphic_link {
+    display: flex;
+    color: grey;
+    margin-top: 30px;
+}
+
+.graphic_link>a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 5px;
+}
+
+.design_more_link {
+    text-decoration: none;
+    color: grey;
+    margin-top: 30px;
+}
+
+.design_more_link>a {
+    margin-left: 5px;
+}
+
+.sewing_image_wrapper {
+    width: 35%;
+    display: flex;
+    margin: 50px;
+    margin-right: 0;
+}
+
+.sewing_image_wrapper>img {
+    width: 100%;
+}
+
+.sewing_wrap {
+    width: 30%;
+}
+
+.sewing_wrap>img {
+    width: 100%;
 }
