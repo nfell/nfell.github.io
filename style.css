@@ -454,13 +454,14 @@ body {
 }
 
 .design_more_link {
-    text-decoration: none;
     color: grey;
     margin-top: 30px;
 }
 
-.design_more_link>a {
+.design_more_link>div>a {
     margin-left: 5px;
+    text-decoration: none;
+    color: grey;
 }
 
 .sewing_image_wrapper {
@@ -480,4 +481,30 @@ body {
 
 .sewing_wrap>img {
     width: 100%;
+}
+
+.app_image {
+    font-family: 'Gupter', serif;;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-right: 0;
+    font-size: 40px;
+}
+
+.frucd_image_wrapper {
+    max-width: 100%;
+    margin: 50px;
+}
+
+.frucd_image_wrapper>img {
+    width: 100%;
+}
+
+#frucd {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0;
 }
