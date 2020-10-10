@@ -30,25 +30,25 @@ let images = [
 
 let captions = [
     "Choose godly wisdom over worldly wisdom",
-    "I am confident I will see the Lord's goodness here in the land of the living",
+    "Be curious, not judgmental",
     "Trust in God's Perfect Timing",
     "The struggle ends when gratitude begins",
     "The peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus",
     "But even the best years are filled with pain and trouble... Who can comprehend the power of your anger? Your wrath is as awesome as the fear you deserve. Teach us to realize the brevity of life, so that we may grow in wisdom",
     "The tounge is a small thing that makes grand speeches",
-    "For he will conceal me when troubles come; he will hide me in his sanctuary. He will place me out of reach on a high rock. Then I will hold my head high, above my enemies who surround me. At his sanctuary I will offer sacrafices with shouts of joy, singing and praising the Lord with music",
+    "I am confident I will see the Lord's goodness here in the land of the living",
     "Make every effort to add to your faith goodness; and to goodness, knowledge; and to knowledge, self control; and to self control, perseverance; and to perseverance, godliness; and to godliness, mutual affection; and to mutual affection, love"
 ]
 
 let authors = [
     "",
-    "Psalms 27:13",
+    "Walt Whitman",
     "",
     "Neale Donald Walsch",
     "Philippians 4:7",
     "Psalms 90:10-12",
     "James 3:5",
-    "Psalms 27:5-6",
+    "Psalms 27:13",
     "2 Peter 1:5-6"
 ]
 
